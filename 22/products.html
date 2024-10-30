@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản Phẩm - MyWebsite</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">MyWebsite</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="home.html">Trang chủ</a></li>
+                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="cv.html">Lý lịch</a></li>
+                <li class="nav-item"><a class="nav-link" href="products.html">Sản phẩm</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div id="products" class="content-section">
+        <h1>Sản phẩm</h1>
+        <button id="addProduct" class="btn btn-primary mb-3">Thêm sản phẩm</button>
+        <div id="productList" class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="product1.jpg" class="card-img-top" alt="Sản phẩm 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Sản phẩm 1: Ứng dụng quản lý công việc</h5>
+                        <p class="card-text">Ứng dụng giúp bạn theo dõi và quản lý công việc hàng ngày hiệu quả.</p>
+                        <button class="btn btn-success">Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="product2.jpg" class="card-img-top" alt="Sản phẩm 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Sản phẩm 2: Trang web thương mại điện tử</h5>
+                        <p class="card-text">Trang web bán hàng trực tuyến với giao diện hiện đại và dễ sử dụng.</p>
+                        <button class="btn btn-success">Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="product3.jpg" class="card-img-top" alt="Sản phẩm 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Sản phẩm 3: Phần mềm quản lý kho</h5>
+                        <p class="card-text">Giải pháp toàn diện cho việc theo dõi và quản lý hàng tồn kho.</p>
+                        <button class="btn btn-success">Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white p-3 text-center">Footer Section - MyWebsite</footer>
+</body>
+</html>
